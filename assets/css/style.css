@@ -1,0 +1,127 @@
+*{
+    padding: 5px;
+    margin: 0;
+}
+
+header{
+    display: flex;   
+    width: 100%;
+    height: 20vh;
+}
+
+#sumario-header{
+    font-size: 1.5em;
+    display: flex;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin-left: 25%;
+    padding: 0 450px 0 0;
+    cursor:pointer;
+}
+
+img{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+
+#logo-header{
+    font-size: 1.5em;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#cadastro{
+    justify-content: center;
+    display: flex;
+}
+
+#pedido{
+    background: #000;
+    color: white;
+    border-radius: 10px;
+    width: 20%;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.formulario{
+    width: 80%;
+    margin-bottom:30px;
+    margin-top: 20px;
+    border: none;
+    border-bottom: 2px solid #000; /
+}
+
+#botao-sing{
+    width: 80%;
+    background: #000;
+    color: white;
+    border-radius: 50px;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    cursor: pointer;
+    height: 15%;
+
+} 
+
+#botao-pedido{
+    width: 70%;
+    border-radius: 50px;
+    background: #000000;
+    color: rgb(255, 255, 255);
+    font-size: 1.2em;
+    border: 2px solid #ffffff;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 20px;
+    height: 15%;
+}
+
+#titulo-login{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 25px ;
+}
+
+label{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 1em;
+    margin-bottom:30px;
+}
+
+#password-help{
+    font-size: 1em;
+    font-family: "Rubik", sans-serif;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    display: block;
+    cursor: pointer;
+}
+
+#pedido p{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 20px;
+}
+
+#pedido h3{
+    font-size: 2em;
+    margin-bottom:10px;
+    margin-top: 20px; 
+    padding-left: 50px;
+    padding-right: 10px;
+}
+
+#nao-tenho-conta {
+    font-family: "Rubik", sans-serif;
+    cursor: pointer;
+    justify-content: center;
+}
+
+#checkbox{
+    width: 20px;
+    height: 20px;
+}
